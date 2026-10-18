@@ -1,0 +1,14 @@
+{
+  "saved_at": "2026-10-17T13:16:12.031591",
+  "python": "3.13.15",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "gpu": "NVIDIA L4",
+  "gpu_mem_gb": 23.7,
+  "transformers": "5.18.0",
+  "peft": "0.21.1",
+  "bitsandbytes": "0.50.2",
+  "results_sha256": "75c21816ebd21f2e8680327394710ef9a8f3694f3e1cc5bafa039983e57be078",
+  "n_rows": 350
+}
