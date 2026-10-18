@@ -1,0 +1,11 @@
+comparison,mean diff,95% CI,raw p,Holm p (m=10),significant
+sparse vs none,0.0264,"[0.0193, 0.0335]",0.0,0.0,True
+dense vs none,0.0316,"[0.0237, 0.0395]",0.0,0.0,True
+hybrid vs dense,-0.001,"[-0.0071, 0.0051]",0.6734,0.6734,False
+hybrid vs sparse,0.0042,"[-0.0028, 0.0110]",0.0164,0.1145,False
+hybrid_rerank vs hybrid,-0.0026,"[-0.0085, 0.0031]",0.1886,0.5658,False
+router vs sparse,0.0029,"[-0.0034, 0.0094]",0.2888,0.5776,False
+router vs dense,-0.0023,"[-0.0059, 0.0013]",0.1204,0.4815,False
+ce_gate_p25 vs hybrid_rerank,-0.002,"[-0.0048, 0.0007]",0.048,0.2398,False
+targ_r75 vs ce_gate_p25,-0.005,"[-0.0095, -0.0002]",0.0366,0.2198,False
+targ_r75 vs hybrid_rerank,-0.007,"[-0.0112, -0.0025]",0.0003,0.002,True
